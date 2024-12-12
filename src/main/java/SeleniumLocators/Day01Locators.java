@@ -32,10 +32,12 @@ public class Day01Locators {
 		
 		forgotPassword.click();
 		
+		System.out.println("Form title: " + driver.findElement(By.xpath("//form/h2")));
 		WebElement name = driver.findElement(By.xpath("//input[@placeholder='Name']"));
 		WebElement email = driver.findElement(By.cssSelector("input[placeholder='Email']"));
 		WebElement phoneNumber = driver.findElement(By.xpath("//input[@type='text'][3]"));
 		//WebElement phoneNumber = driver.findElement(By.cssSelector("input[type='text']:nth-child(3)"));
+		WebElement resetButton = driver.findElement(By.cssSelector(".reset-pwd-btn"));
 		
 		
 		name.sendKeys("Mohammad");
@@ -43,6 +45,12 @@ public class Day01Locators {
 		name.sendKeys("Mohammad Didarul Alam");
 		email.sendKeys("didar@gmail.com");
 		phoneNumber.sendKeys("018363764272");
+		resetButton.click();
+		
+		
+		
+		
+		
 		
 		
 		
