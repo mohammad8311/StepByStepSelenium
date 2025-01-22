@@ -18,6 +18,8 @@ public class Day06DynamicDropdown {
 		driver.findElement(By.xpath("//div[text()='Chennai']")).click();
 		driver.findElement(By.xpath("//div[text()='BLR']")).click();
 		
+		// Parent-Child Xpath: //div[@class='css-1dbjc4n'] //div[text()='Chennai'] = Parent: //div[@class='css-1dbjc4n'] and Child: //div[text()='Chennai']
+		//driver.findElement(By.xpath("//div[@class='css-1dbjc4n'] //div[text()='Chennai']")).click();
 
 	}
 
