@@ -7,13 +7,18 @@ public class Tester {
 		Student s1 = new Student();
 		Student s2 = new Student();
 		
-		int  x = 5;
-		s1.name = "Example Name";
-		s2.id = "1";
+		s1.name = "Chrissy";
+		s1.id = "1";
+		s2.name = "Mary";
+		s2.id = "6";
 		
-		System.out.println(s1.name);
-		System.out.println(s2.id);
-		System.out.println(x);
+		System.out.println(s1.name +" "+ s1.id );
+		System.out.println(s2.name +" "+ s2.id);
+		s1 = s2;
+		System.out.println(s1.name +" "+ s1.id );
+		System.out.println(s2.name +" "+ s2.id);
+
+
 	}
 
 }

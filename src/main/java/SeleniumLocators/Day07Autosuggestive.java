@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class Day07DropdownDynamic {
+public class Day07Autosuggestive {
 
 	public static void main(String[] args) throws InterruptedException {
 		WebDriver driver = new ChromeDriver();
@@ -23,6 +23,7 @@ public class Day07DropdownDynamic {
 			if(option.getText().equalsIgnoreCase("Bangladesh"))
 			{
 				option.click();
+				break;
 			}
 		}
 
