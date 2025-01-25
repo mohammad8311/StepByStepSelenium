@@ -17,6 +17,8 @@ public class Day08Checkbox {
 		//Count the number of checkbox
 		System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
 		
+		driver.findElement(By.xpath("//div[text()='1 Adult']")).click();
+
 
 	}
 
