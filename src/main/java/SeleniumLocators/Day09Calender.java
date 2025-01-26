@@ -12,7 +12,10 @@ public class Day09Calender {
 		
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
 		driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_originStation1_CTNR'] //a[@text='Bengaluru (BLR)']")).click();
+		Thread.sleep(2000L);
+		driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@text='Chennai (MAA)']")).click();
 		
+		driver.findElement(By.cssSelector(".ui-state-default.ui-state-active")).click();
 		
 		driver.findElement(By.id("divpaxinfo")).click();
 		Thread.sleep(2000L);
