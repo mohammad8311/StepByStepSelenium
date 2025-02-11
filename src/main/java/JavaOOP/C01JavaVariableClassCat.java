@@ -1,6 +1,6 @@
 package JavaOOP;
 
-public class JavaVariableClassCat {
+public class C01JavaVariableClassCat {
 	public String color; //instance var
 	public String action = "sitting"; //instance  var
 	int x = 10; //instance var

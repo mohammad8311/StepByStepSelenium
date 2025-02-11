@@ -1,6 +1,6 @@
 package JavaOOP;
 
-public class JavaMethodClass {
+public class C01JavaMethodClass {
 	public int window; //instance variable
 	public int door;	//instance variable
 	

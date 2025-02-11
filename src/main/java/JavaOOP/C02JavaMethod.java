@@ -1,13 +1,13 @@
 package JavaOOP;
 
-public class JavaMethod {
+public class C02JavaMethod {
 
 	public static void main(String[] args) {
-		JavaMethodClass jmc1 = new JavaMethodClass();
+		C01JavaMethodClass jmc1 = new C01JavaMethodClass();
 		jmc1.window = 10;
 		jmc1.door = 5;
 		
-		JavaMethodClass jmc2 = new JavaMethodClass();
+		C01JavaMethodClass jmc2 = new C01JavaMethodClass();
 		jmc2.window = 20;
 		jmc2.door = 8;
 		

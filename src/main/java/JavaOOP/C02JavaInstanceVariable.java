@@ -1,13 +1,13 @@
 package JavaOOP;
 
-public class JavaInstanceVariable {
+public class C02JavaInstanceVariable {
 
 	public static void main(String[] args) {
 		
-		JavaVariableClassCat c1 = new JavaVariableClassCat();
+		C01JavaVariableClassCat c1 = new C01JavaVariableClassCat();
 		c1.color = "White";
 		
-		JavaVariableClassCat c2 = new JavaVariableClassCat();
+		C01JavaVariableClassCat c2 = new C01JavaVariableClassCat();
 		c2.color = "Black";
 		
 		System.out.println("===========C1 Cat============");
@@ -21,7 +21,7 @@ public class JavaInstanceVariable {
 		c1.details();
 		
 		System.out.println("===========Int value print============");
-		JavaVariableClassCat xVal = new JavaVariableClassCat();
+		C01JavaVariableClassCat xVal = new C01JavaVariableClassCat();
 		xVal.mt1();
 		
 
